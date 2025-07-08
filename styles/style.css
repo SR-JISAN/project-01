@@ -1,9 +1,14 @@
 *{
     margin: 0;
 }
+.header-set-image{
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto;
+}
 /* banner main container part-------------- */
 .container{
-    background-color: rgb(255, 250, 247);
     width: 100%;
     display: flex;
 }
@@ -14,7 +19,6 @@
     padding-left: 50px;
 }
 .dev img{
-    /* width: 100%; */
     height:500px;
 }
 /* navigation--Bar---------------- */
@@ -67,4 +71,67 @@
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.418);
     background-color: rgb(200, 255, 0);
     color: blue;
+}
+
+/* -------banner---------------- */
+
+.banner{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.banner-head{
+    font-size: 50px;
+}
+.banner-contant{
+    width: 50%;
+}
+
+
+.banner-image img{
+    height: 410px;
+    width: 100%;
+}
+.banner-contant p{
+    color: rgb(155, 151, 146);
+    margin-top: 20px;
+}
+.banner-btn1{
+    margin-top: 20px;
+    align-items: center;
+    background-color:#FD6E0A ;
+    font-weight: 800;
+    padding: 15px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.banner-btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.banner-btn1:hover{
+    background-color:#0ae5fdd6;
+    box-shadow: 10px 10px 10px rgba(98, 95, 95, 0.916);
+}
+.banner-btn2{
+     align-items: center;
+    background-color:#fd6f0a11 ;
+    font-weight: 800;
+    padding: 15px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.banner-btn2 a{
+    text-decoration: none;
+    color: #FD6E0A;
+}
+.banner-btn2:hover{
+    background-color:#0ae5fd38;
+    box-shadow: 10px 10px 10px rgba(98, 95, 95, 0.916);
 }
